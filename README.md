@@ -1,8 +1,8 @@
 Simple Example of How to Package Java Application with Nix
 ==========================================================
 
-There's a dearth of materials on how to package Java applications for Nix that
-aren't pre-built.
+There's a dearth of materials on how to package Java applications for
+[Nix](https://nixos.org/nix/) that aren't pre-built.
 
 So here's how to do it from first principles; no fancy Nix machinery at all,
 just bare bones Java source files all the way to a runnable script that can be
