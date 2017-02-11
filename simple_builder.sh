@@ -1,4 +1,4 @@
-export PATH="$findutils/bin:$coreutils/bin:$jdk/bin:$jre/bin:$gcc/bin"
+export PATH="$coreutils/bin:$jdk/bin:$jre/bin"
 mkdir $out
 source $makeWrapper/nix-support/setup-hook
 javac $src/$className.java -d $out
